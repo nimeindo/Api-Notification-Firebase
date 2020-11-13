@@ -1,0 +1,22 @@
+{
+  "name": "api-notification-firebase",
+  "version": "1.0.0",
+  "description": "api for push notification with firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
