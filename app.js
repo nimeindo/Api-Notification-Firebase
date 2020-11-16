@@ -16,6 +16,9 @@ app.use(bodyParser.urlencoded({extended:false}))//biar bsa di injek
 
 // Routes
 app.use('/FBv1',firebaseRoute)
+app.get('/', function (req, res) {
+    res.send('Welcome To Nodejs');
+});
 
 app.use((req, res, next)=>{
     const err = new Error("Not Found");
